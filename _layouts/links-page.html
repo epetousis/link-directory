@@ -1,4 +1,5 @@
 ---
+layout: default
 sectiontypes:
   standard:
   small:
@@ -8,32 +9,12 @@ sectiontypes:
   text:
     class: text-grid
 ---
-<!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
-
-    <div class="outer fade-in">
-      <div class="middle">
-        {% include header.html %}
-        <div class="inner inner-unpadded links-body">
-          {% if page.content-below-links %}
-            {% include links-body.html %}
-            {{ content }}
-          {% else %}
-            {{ content }}
-            {% include links-body.html %}
-          {% endif %}
-        </div>
-        {% include footer.html %}
-      </div>
-    </div>
-
-    {% include floater.html %}
-    {% include js.html %}
-
-  </body>
-
-</html>
+<div class="inner inner-unpadded links-body">
+  {% if page.content-below-links %}
+    {% include links-body.html %}
+    {{ content }}
+  {% else %}
+    {{ content }}
+    {% include links-body.html %}
+  {% endif %}
+</div>
