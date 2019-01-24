@@ -1,6 +1,6 @@
 # link-directory
 
-A theme for 
+A simple link directory Jekyll theme for institutions with many sites.
 
 ## Installation
 
