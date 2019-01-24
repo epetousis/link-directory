@@ -16,6 +16,12 @@ And add this line to your Jekyll site's `_config.yml`:
 theme: link-directory
 ```
 
+If you are a GitHub pages user, add this line to your site's `_config.yml` instead:
+
+```yaml
+remote_theme: evilgoldfish/link-directory
+```
+
 And then execute:
 
     $ bundle
