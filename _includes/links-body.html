@@ -1,6 +1,6 @@
 {% assign filler = '<div class="pure-u-1 filler"></div>' %}
 {% for section in page.sections %}
-<div class="pure-g{% if section.type and site.data.sectiontypes[section.type].class %} {{ site.data.sectiontypes[section.type].class }}{% endif %}">
+<div class="pure-g{% if section.type and layout.sectiontypes[section.type].class %} {{ layout.sectiontypes[section.type].class }}{% endif %}">
   {% for link in section.body %}
 
   {% assign unitWidth = link.width | default: '1' %}
