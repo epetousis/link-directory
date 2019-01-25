@@ -1,0 +1,13 @@
+{% if site.google_tag_manager %}
+    {% if jekyll.environment == "production" %}
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_tag_manager }}"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '{{ site.google_tag_manager }}');
+        </script>
+    {% else %}
+        <!-- Skipping Google Tag Manager in local. -->
+    {% endif %}
+{% endif %}
