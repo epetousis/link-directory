@@ -1,5 +1,9 @@
+// Pure CSS
+@import "link-directory/vendor/pure/purecss/base";
+@import "link-directory/vendor/pure/purecss/buttons";
+@import "link-directory/vendor/pure/purecss/grids";
+@import "link-directory/vendor/pure/purecss/grids-responsive";
+
+// link-directory CSS
 @import "link-directory/global";
 @import "link-directory/nightmode";
-@import "link-directory/vendor/pure/purecss/base";
-@import "link-directory/vendor/pure/purecss/grids";
-@import "link-directory/vendor/pure/purecss/grids-responsive"
