@@ -1,40 +1,42 @@
-body.night-mode {
-	background: #222;
-}
-
-body.night-mode .github-corner svg {
-	color: #222 !important;
-	fill: #fff !important;
-}
-
-body.night-mode div.inner {
-	color: white;
-}
-
-body.night-mode p a {
-	color: #0af;
-}
-
-body.night-mode .button-green {
-	background: rgb(28, 144, 65);
-}
-
-body.night-mode .button-red {
-	background: rgb(162, 60, 60);
-}
-
-body.night-mode .button-orange {
-	background: rgb(183, 117, 20);
-}
-
-body.night-mode .button-darkblue {
-	background: rgb(44, 62, 100);
-}
-
-body.night-mode .button-blue {
-	background: rgb(50, 98, 127);
-}
-
-body.night-mode .button-lightblue {
-	background: rgb(66, 144, 181);
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #222;
+	}
+	
+	body .github-corner svg {
+		color: #222 !important;
+		fill: #fff !important;
+	}
+	
+	body div.inner {
+		color: white;
+	}
+	
+	body p a {
+		color: #0af;
+	}
+	
+	body .button-green {
+		background: rgb(28, 144, 65);
+	}
+	
+	body .button-red {
+		background: rgb(162, 60, 60);
+	}
+	
+	body .button-orange {
+		background: rgb(183, 117, 20);
+	}
+	
+	body .button-darkblue {
+		background: rgb(44, 62, 100);
+	}
+	
+	body .button-blue {
+		background: rgb(50, 98, 127);
+	}
+	
+	body .button-lightblue {
+		background: rgb(66, 144, 181);
+	}
 }
